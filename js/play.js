@@ -11,8 +11,8 @@ function init() {
     //examples.showDistractor("content");
 	var assetsPath = "mp3/";
     var sounds = [
-	    {src:"01-jmappelle.mp3",id:0},
-        // {src:"02-suisoblige.mp3",id:1},
+	    {src:"01-cesdiableries.mp3",id:0},
+        {src:"02-jsuisbourré.mp3",id:1},
 		// {src:"03-kapriunevolee.mp3",id:2},
 		// {src:"04-hehofman.mp3",id:3},
 		// {src:"05-lopezdevosmorts.mp3",id:4},
