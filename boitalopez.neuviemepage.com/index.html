@@ -1,0 +1,86 @@
+<html>
+  <head>
+		<title>La boîte à Thon</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content="Le sang de vos morts !">
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="../code.createjs.com/soundjs-0.6.1.min.js.mjs"></script>
+    <script src="js/play.js"></script>
+
+    <meta property="go:title" content="La boite à Lopez">
+    <meta property="og:url" content="http://boitalopez.neuviemepage.com/">
+    <meta property="go:image" content="http://boitalopez.neuviemepage.com/facebook.jpg">		
+    <noscript>
+      <link rel="stylesheet" href="css/skel.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style-xlarge.css">
+    </noscript>
+  </head>
+  <body onload="init();" id="top">
+		<!-- Header -->
+    <header id="header">
+      <a href="./" class="image avatar"><img src="images/avatar.jpg.jpeg" alt=""></a>
+      <h1>
+        <strong>La boîte à Thon</strong>, <br>"Le sang de vos morts !"
+      </h1>
+    </header>
+    <!-- Main -->
+    <div id="main">
+      <!-- One -->
+      <section id="one">
+        <ul class="actions" style="text-align: center;">
+          <li><a id="0" href="#" class="button" onclick="playSound(this); return false;" data-label="Je m'appelle Lopez, Joe"><img class="icon" src="./images/preloader.svg" width="40" height="25" alt=""></a><small><span>a</span></small></li>
+          <!-- <li><a id="1" href="./" class="button" onclick="playSound(this); return false;" data-label="Je suis oblig&#195;&#169; de faire &#195;&#167;a..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>z</span></small></li>
+          <li><a id="2" href="./" class="button" onclick="playSound(this); return false;" data-label="Qui a pris une vol&#195;&#169;e !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>e</span></small></li>
+          <li><a id="3" href="./" class="button" onclick="playSound(this); return false;" data-label="Et Hofmann de tes morts !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>r</span></small></li>
+          <li><a id="4" href="./" class="button" onclick="playSound(this); return false;" data-label="Lopez de vos morts"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>t</span></small></li>
+          <li><a id="5" href="./" class="button" onclick="playSound(this); return false;" data-label="Je vais vous enculer vos morts"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>y</span></small></li>
+          <li><a id="6" href="./" class="button" onclick="playSound(this); return false;" data-label="Tu viens quand tu veux !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>u</span></small></li>
+          <li><a id="7" href="./" class="button" onclick="playSound(this); return false;" data-label="il a fallu que je vienne..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>i</span></small></li>
+          <li><a id="8" href="./" class="button" onclick="playSound(this); return false;" data-label="Tu vois ce que tu me forces &#195;&#160; faire ?"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>o</span></small></li>
+          <li><a id="9" href="./" class="button" onclick="playSound(this); return false;" data-label="Moi je viens tout seul !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>p</span></small></li>
+          <li><a id="10" href="./" class="button" onclick="playSound(this); return false;" data-label="Viens on va en finir"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>q</span></small></li>
+          <li><a id="11" href="./" class="button" onclick="playSound(this); return false;" data-label="Moiti&#195;&#169; route, sur mon d&#195;&#169;funt p&#195;&#168;re"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>s</span></small></li>
+          <li><a id="12" href="./" class="button" onclick="playSound(this); return false;" data-label="Et celui qui vient pas, ..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>d</span></small></li>
+          <li><a id="13" href="./" class="button" onclick="playSound(this); return false;" data-label="On se donne rendez-vous !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>f</span></small></li>
+          <li><a id="14" href="./" class="button" onclick="playSound(this); return false;" data-label="Je veux en finir !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>g</span></small></li>
+          <li><a id="15" href="./" class="button" onclick="playSound(this); return false;" data-label="J'ai jamais pris une vol&#195;&#169;e par un homme"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>h</span></small></li>
+          <li><a id="16" href="./" class="button" onclick="playSound(this); return false;" data-label="J'en veux Joe !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>j</span></small></li>
+          <li><a id="17" href="./" class="button" onclick="playSound(this); return false;" data-label="De toutes fa&#195;&#167;ons on est en 2012..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>k</span></small></li>
+          <li><a id="18" href="./" class="button" onclick="playSound(this); return false;" data-label="Vous allez payer"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>l</span></small></li>
+          <li><a id="19" href="./" class="button" onclick="playSound(this); return false;" data-label="Le sang de vos morts"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>m</span></small></li>
+          <li><a id="20" href="./" class="button" onclick="playSound(this); return false;" data-label="La calotte de vos morts"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>w</span></small></li>
+          <li><a id="21" href="./" class="button" onclick="playSound(this); return false;" data-label="Viens l&#195;&#160; toi !"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>x</span></small></li>
+          <li><a id="22" href="./" class="button" onclick="playSound(this); return false;" data-label="La calotte de ses morts je lui suce"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>c</span></small></li>
+          <li><a id="23" href="./" class="button" onclick="playSound(this); return false;" data-label="Le sang de leurs morts il mangera"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>v</span></small></li>
+          <li><a id="24" href="./" class="button" onclick="playSound(this); return false;" data-label="Ta femme..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>b</span></small></li>
+          <li><a id="25" href="./" class="button" onclick="playSound(this); return false;" data-label="Ferme ta gueule &#194;&#169;"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>n</span></small></li>
+          <li><a id="26" href="./" class="button" onclick="playSound(this); return false;" data-label="J'ai pas peur moi"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>,</span></small></li>
+          <li><a id="27" href="./" class="button" onclick="playSound(this); return false;" data-label="C'est pas deux coups de poings, une tapette..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>;</span></small></li>
+          <li><a id="28" href="./" class="button" onclick="playSound(this); return false;" data-label="Mon petit fr&#195;&#168;re qui est ici l&#195;&#160;..."><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>=</span></small></li>
+          <li><a id="29" href="./" class="button" onclick="playSound(this); return false;" data-label="C'est la castagne"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>1</span></small></li>
+          <li><a id="30" href="./" class="button" onclick="playSound(this); return false;" data-label="?!??"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small><span>2</span></small></li>
+          <li><a id="31" href="./" class="button" onclick="playSound(this); return false;" data-label="Je fais 75 kilos je fais"><img class="icon" src="images/preloader.svg" width="40" height="25" alt=""></a><small style="right: 5px;"><span>3</span></small></li> -->
+        </ul>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <!-- <li><a href="https://twitter.com/neuviemepage" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/neuviemepage" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+        <li><a href="https://instagram.com/neuviemepage/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+        <li style="position: relative;top: -6px;"><div class="fb-share-button" data-href="http://boitaLopez.neuviemepage.com/" data-layout="button_count"></div></li> -->
+      </ul>
+      <ul class="copyright">
+        <li>&#169; Pizza au thon</li>
+        <!-- <li>Création: <a href="https://www.facebook.com/neuviemepage">neuvi&#195;&#168;me page</a></li>
+        <li>(sur une id&#195;&#169;e originale de <a href="http://www.fier-panda.fr/" target="_blank">Fier Panda</a>)</li> -->
+      </ul>
+    </footer>
+  </body>
+</html>
